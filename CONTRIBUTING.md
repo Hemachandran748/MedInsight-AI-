@@ -1,20 +1,15 @@
-# Contributing to HIA (Health Insights Agent) 🩺
+# Contributing to MedInsightAI (Intelligent Medical Report Analysis Agent)
 
-Thank you for considering contributing to HIA! This document provides guidelines and instructions to help you get started.
+Thank you for considering contributing to MedInsigh-AI! This document provides guidelines and instructions to help you get started.
 
 ## Table of Contents
-- [Code of Conduct](#code-of-conduct)
+
 - [Getting Started](#getting-started)
 - [Development Environment Setup](#development-environment-setup)
 - [Development Workflow](#development-workflow)
 - [Coding Standards](#coding-standards)
 - [Testing Guidelines](#testing-guidelines)
-- [Documentation](#documentation)
-- [Security](#security)
 
-## Code of Conduct
-
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md). We aim to foster an inclusive and respectful community.
 
 ## Getting Started
 
@@ -31,8 +26,7 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md). We aim to fost
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/harshhh28/hia.git
-   cd hia
+   git clone https://github.com/Hemachandran748/MedInsight-AI-
    ```
 
 2. **Install dependencies**:
@@ -138,23 +132,3 @@ class AnalysisAgent:
    ```bash
    python -m pytest tests/
    ```
-
-## Documentation
-
-- Update README.md for new features
-- Add docstrings to new functions/classes
-- Include example usage where appropriate
-- Document environment variables
-- Keep API documentation current
-
-## Security
-
-- Never commit sensitive data
-- Follow secure coding practices
-- Validate all user inputs
-- Report security issues privately
-- Follow the [Security Policy](SECURITY.md)
-
----
-
-We appreciate your contributions to making HIA better! If you have questions, feel free to open an issue or contact the maintainers.
